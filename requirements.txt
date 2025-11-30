@@ -4,3 +4,4 @@ plotly
 streamlit
 pygetwindow
 pyautogui
+python-dotenv
