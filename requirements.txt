@@ -1,0 +1,6 @@
+supabase
+pandas
+plotly
+streamlit
+pygetwindow
+pyautogui
