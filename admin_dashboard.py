@@ -19,7 +19,7 @@ SUPABASE_KEY = st.secrets.get("SUPABASE_KEY", os.getenv("SUPABASE_KEY"))
 
 # --- SETTINGS ---
 # Any idle block longer than this (minutes) is treated as "Offline/Went Home"
-MAX_IDLE_THRESHOLD_MINS = 30 
+MAX_IDLE_THRESHOLD_MINS = 15 
 # Timezone Setting
 REPORT_TIMEZONE = 'America/Chicago' 
 
