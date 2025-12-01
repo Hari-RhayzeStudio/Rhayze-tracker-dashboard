@@ -5,3 +5,4 @@ streamlit
 pygetwindow
 pyautogui
 python-dotenv
+pytz
