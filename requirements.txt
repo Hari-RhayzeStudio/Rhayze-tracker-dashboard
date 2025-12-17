@@ -1,8 +1,7 @@
-supabase
+streamlit
 pandas
 plotly
-streamlit
-pygetwindow
-pyautogui
+supabase
 python-dotenv
 pytz
+
