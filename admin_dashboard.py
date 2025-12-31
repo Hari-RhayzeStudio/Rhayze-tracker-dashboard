@@ -18,7 +18,7 @@ SUPABASE_URL = st.secrets.get("SUPABASE_URL", os.getenv("SUPABASE_URL"))
 SUPABASE_KEY = st.secrets.get("SUPABASE_KEY", os.getenv("SUPABASE_KEY"))
 
 # --- SETTINGS ---
-MAX_IDLE_THRESHOLD_MINS = 10
+MAX_IDLE_THRESHOLD_MINS = 15
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     st.error("🚨 Configuration Error: Supabase URL or Key is missing.")
